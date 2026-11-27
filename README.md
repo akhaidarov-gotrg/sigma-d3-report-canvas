@@ -1,3 +1,3 @@
 # sigma-d3-report-canvas
 
-Static build of a test Sigma custom plugin: a whole report page drawn by one D3 plugin, with cross-filtering inside the plugin and two-way sync with workbook controls. No source data is stored here: inside Sigma the plugin draws the workbook elements it is given; opened directly it shows invented demo rows. Pages: canvas (synthetic workbook) and flow (Sankey, ribbon, waterfall).
+Static build of a test Sigma custom plugin: a whole report page drawn by one D3 plugin, with cross-filtering inside the plugin and two-way sync with workbook controls. No source data is stored here: inside Sigma the plugin draws the workbook elements it is given; opened directly it shows invented demo rows. Pages: canvas (synthetic workbook), flow (Sankey, ribbon, waterfall) and sales (KPI, year trend with outlook, weekly flow, gross-to-net bridge, daily calendar, US state map, programs, buyers); open with `?sales=1` for invented demo rows.
